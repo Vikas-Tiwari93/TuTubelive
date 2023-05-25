@@ -1,0 +1,302 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#leftbody {
+  width: 60%;
+  min-width: 550px;
+}
+#rightbody {
+  width: 33%;
+  display: flex;
+  flex-shrink: 8;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px 5px 10px 5px;
+  margin: 5px;
+  gap: 5px;
+  position: relative;
+}
+#videobody {
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+}
+#commentbody {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-width: 600px;
+}
+.videoabout {
+  height: 90px;
+  width: 100%;
+  gap: 7px;
+}
+.abouttext {
+  height: 49%;
+  width: 96%;
+  font-size: 23px;
+  font-weight: 550;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+.abouticons {
+  height: 49%;
+  width: 96%;
+  display: flex;
+}
+.abouticons span {
+  display: flex;
+  align-items: center;
+  background-color: rgb(211, 212, 212);
+  border-radius: 10px;
+  height: 75%;
+  padding: 0px 17px 0px 17px;
+  gap: 10px;
+}
+.abouticons span:hover {
+  cursor: pointer;
+  background-color: rgb(200, 198, 198);
+}
+.videocomment {
+  margin-left: 10px;
+  width: 94%;
+  height: 150px;
+  background-color: rgb(211, 212, 212);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.actualcomment {
+  margin-left: 30px;
+  margin-right: 20px;
+  width: 92%;
+  height: 400px;
+  margin-top: 20px;
+  border-top: 1px solid silver;
+}
+.actualcomment span {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.actualcomment span:hover {
+  background-color: rgb(205, 202, 202);
+  cursor: pointer;
+  border-radius: 8px;
+}
+.addacomment {
+  width: 100%;
+  padding-bottom: 4px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid silver;
+}
+.pplcomment {
+  margin-top: 10px;
+  width: 100%;
+  height: 400px;
+  background: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.actualcommentadd {
+  display: flex;
+  width: 95%;
+  max-height: 120px;
+}
+.addcommentchannel {
+  width: 100%;
+  font-weight: 700;
+}
+.cardoptionmain {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.cardoptionmain::-webkit-scrollbar {
+  display: none;
+}
+.optionslider {
+  height: 95%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cardoptbuttonR {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0px;
+  top: 23px;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(255, 255, 255, 0.864);
+}
+.cardoptbuttonR:hover {
+  background-color: rgb(234, 230, 230);
+}
+.cardoptbuttonR:active {
+  background-color: rgb(147, 143, 143);
+}
+.cardoptbuttonL {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0px;
+  top: 23px;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(255, 255, 255, 0.864);
+}
+.cardoptbuttonL:hover {
+  background-color: rgb(234, 230, 230);
+}
+.cardoptbuttonL:active {
+  background-color: rgb(147, 143, 143);
+}
+
+.cardoptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px 0px 15px;
+  white-space: nowrap;
+  height: 80%;
+  font-size: 14.5px;
+  border-radius: 10px;
+  background-color: rgb(211, 212, 212);
+}
+#cardoptions {
+  background-color: rgb(40, 39, 39);
+  color: white;
+}
+.cardoptions:hover {
+  cursor: pointer;
+  background-color: rgb(191, 192, 192);
+}
+.cardoptions:active {
+  background-color: rgba(255, 255, 255, 0.491);
+}
+.card {
+  width: 94%;
+  height: 110px;
+  position: relative;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgb(215, 214, 214);
+  border-radius: 10px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.card:hover * {
+  cursor: pointer;
+  visibility: visible;
+}
+.cardopt {
+  visibility: hidden;
+  position: absolute;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  top: 3px;
+  right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: blur(20px);
+  border: 1px solid transparent;
+}
+.cardopt:hover {
+  background-color: rgba(171, 166, 166, 0.719);
+}
+.watchlater {
+  visibility: hidden;
+  position: absolute;
+  filter: invert(1);
+  background-color: rgba(249, 247, 247, 0.805);
+  height: 30px;
+  width: 30px;
+  bottom: 40%;
+  left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.watchlater:hover {
+  border: 1px solid rgb(46, 45, 45);
+}
+
+.cardimg {
+  width: 40%;
+  height: 99%;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cardimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carddetails {
+  width: 55%;
+  height: 95%;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.carddetaileach {
+  font-size: 15px;
+  font-weight: 620;
+  height: 38px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.channelnameeach {
+  color: rgb(87, 85, 85);
+  font-size: 12.5px;
+}
+.channelnew {
+  background-color: rgb(212, 206, 206);
+  padding: 0px 6px 0px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: rgb(43, 43, 43);
+}
+@media screen and (max-width: 700px) {
+  #rightbody {
+    display: none;
+  }
+}
