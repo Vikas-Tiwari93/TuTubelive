@@ -113,7 +113,7 @@ function qualityin1080() {
   document.getElementById("displayquality").innerHTML = "1080p";
   document.getElementById("qualitychk").removeAttribute("id");
   event.currentTarget.querySelector("img").setAttribute("id", "qualitychk");
-  console.log(event.target.querySelector("img"));
+  console.log(event.currentTarget.querySelector("img"));
   console.log(event.currentTarget.querySelector("img"));
 }
 function qualityin720() {
@@ -122,8 +122,8 @@ function qualityin720() {
   quality.classList.toggle("qualityV");
   document.getElementById("displayquality").innerHTML = "720p";
   document.getElementById("qualitychk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "qualitychk");
-  console.log(event.target.querySelector("img"));
+  event.currentTarget.querySelector("img").setAttribute("id", "qualitychk");
+  console.log(event.currentTarget.querySelector("img"));
   console.log(event.currentTarget.querySelector("img"));
 }
 function qualityin480() {
@@ -132,8 +132,8 @@ function qualityin480() {
   quality.classList.toggle("qualityV");
   document.getElementById("displayquality").innerHTML = "480p";
   document.getElementById("qualitychk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "qualitychk");
-  console.log(event.target.querySelector("img"));
+  event.currentTarget.querySelector("img").setAttribute("id", "qualitychk");
+  console.log(event.currentTarget.querySelector("img"));
   console.log(event.currentTarget.querySelector("img"));
 }
 function qualityin240() {
@@ -142,8 +142,8 @@ function qualityin240() {
   quality.classList.toggle("qualityV");
   document.getElementById("displayquality").innerHTML = "240p";
   document.getElementById("qualitychk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "qualitychk");
-  console.log(event.target.querySelector("img"));
+  event.currentTarget.querySelector("img").setAttribute("id", "qualitychk");
+  console.log(event.currentTarget.querySelector("img"));
   console.log(event.currentTarget.querySelector("img"));
 }
 function qualityin144() {
@@ -152,8 +152,8 @@ function qualityin144() {
   quality.classList.toggle("qualityV");
   document.getElementById("displayquality").innerHTML = "144p";
   document.getElementById("qualitychk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "qualitychk");
-  console.log(event.target.querySelector("img"));
+  event.currentTarget.querySelector("img").setAttribute("id", "qualitychk");
+  console.log(event.currentTarget.querySelector("img"));
   console.log(event.currentTarget.querySelector("img"));
 }
 function qualityinauto() {
@@ -162,8 +162,8 @@ function qualityinauto() {
   quality.classList.toggle("qualityV");
   document.getElementById("displayquality").innerHTML = "Auto";
   document.getElementById("qualitychk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "qualitychk");
-  console.log(event.target.querySelector("img"));
+  event.currentTarget.querySelector("img").setAttribute("id", "qualitychk");
+  console.log(event.currentTarget.querySelector("img"));
   console.log(event.currentTarget.querySelector("img"));
 }
 
@@ -179,7 +179,7 @@ function speedin025() {
   document.querySelector("video").playbackRate = 0.25;
   document.getElementById("displayspeed").innerHTML = "0.25 X";
   document.getElementById("speedchk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "speedchk");
+  event.currentTarget.querySelector("img").setAttribute("id", "speedchk");
 }
 function speedin050() {
   let speedlist = document.getElementById("speed");
@@ -188,7 +188,7 @@ function speedin050() {
   document.querySelector("video").playbackRate = 0.5;
   document.getElementById("displayspeed").innerHTML = "0.5 X";
   document.getElementById("speedchk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "speedchk");
+  event.currentTarget.querySelector("img").setAttribute("id", "speedchk");
 }
 function speedin075() {
   let speedlist = document.getElementById("speed");
@@ -197,7 +197,7 @@ function speedin075() {
   document.querySelector("video").playbackRate = 0.75;
   document.getElementById("displayspeed").innerHTML = "0.75 X";
   document.getElementById("speedchk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "speedchk");
+  event.currentTarget.querySelector("img").setAttribute("id", "speedchk");
 }
 function speedin100() {
   let speedlist = document.getElementById("speed");
@@ -206,7 +206,7 @@ function speedin100() {
   document.querySelector("video").playbackRate = 1;
   document.getElementById("displayspeed").innerHTML = "Normal";
   document.getElementById("speedchk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "speedchk");
+  event.currentTarget.querySelector("img").setAttribute("id", "speedchk");
 }
 function speedin125() {
   let speedlist = document.getElementById("speed");
@@ -215,7 +215,7 @@ function speedin125() {
   document.querySelector("video").playbackRate = 1.25;
   document.getElementById("displayspeed").innerHTML = "1.25 X";
   document.getElementById("speedchk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "speedchk");
+  event.currentTarget.querySelector("img").setAttribute("id", "speedchk");
 }
 function speedin150() {
   let speedlist = document.getElementById("speed");
@@ -224,7 +224,7 @@ function speedin150() {
   document.querySelector("video").playbackRate = 1.5;
   document.getElementById("displayspeed").innerHTML = "1.5 X";
   document.getElementById("speedchk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "speedchk");
+  event.currentTarget.querySelector("img").setAttribute("id", "speedchk");
 }
 function speedin175() {
   let speedlist = document.getElementById("speed");
@@ -233,7 +233,7 @@ function speedin175() {
   document.querySelector("video").playbackRate = 1.75;
   document.getElementById("displayspeed").innerHTML = "1.75 X";
   document.getElementById("speedchk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "speedchk");
+  event.currentTarget.querySelector("img").setAttribute("id", "speedchk");
 }
 function speedin200() {
   let speedlist = document.getElementById("speed");
@@ -242,7 +242,7 @@ function speedin200() {
   document.querySelector("video").playbackRate = 2;
   document.getElementById("displayspeed").innerHTML = "2 X";
   document.getElementById("speedchk").removeAttribute("id");
-  event.target.querySelector("img").setAttribute("id", "speedchk");
+  event.currentTarget.querySelector("img").setAttribute("id", "speedchk");
 }
 function classreset() {
   let speedlist = document.getElementById("speed");
@@ -273,7 +273,7 @@ function classreset() {
 function hometheatre() {
   document.getElementById("videobody").style.width = "93vw";
   document.getElementById("rightbody").removeAttribute("margin");
-  document.getElementById("rightbody").style.marginTop = "640px";
+  document.getElementById("rightbody").style.marginTop = "104vh";
   document.getElementById("videobody").style.height = "105vh";
   document.getElementById("videoplayersection").style.height = "82%";
 }
