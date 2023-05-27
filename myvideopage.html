@@ -856,7 +856,7 @@
                   <span class="slider"></span>
                 </label></span></div>
                 <div onclick="speed()"><span class="L"><img src="./svg/videoplayer/PLAYBACKSPEED.svg" alt="" class="setbtn">Playback Speed</span> <span class="R"><span id="displayspeed">Normal</span> <img src="./svg/videoplayer/settingside.svg" alt=""></span></div>
-                <div><span class="Ll"><img src="./svg/videoplayer/cc.svg" alt="" class="setbtn">SubTitles</span> <span class="R">Off<img src="./svg/videoplayer/settingside.svg" alt=""></span></div>
+                <div><span class="Ll"><img src="./svg/videoplayer/cc.svg" alt="" class="setbtn">SubTitles (in progress)</span> <span class="R">Off<img src="./svg/videoplayer/settingside.svg" alt=""></span></div>
                 <div onclick="quality()"><span class="L"><img src="./svg/videoplayer/QUALITY.svg" alt="" class="setbtn">Quality</span> <span class="R"> <span id="displayquality">1080p</span> <img src="./svg/videoplayer/settingside.svg" alt=""></span></div>
               </div>
               <div id="speed" class="speed">
@@ -872,7 +872,7 @@
           
           </div>
               <div id="quality" class="quality">
-              <div class="qualityin" onclick="qualityin1080()" style="border-bottom:1px solid white;"> <img src="./svg/whitecheck.png" alt="" style="width:24px;height:24px" id='qualitychk' class="qualitychk">1080p</div>
+              <div class="qualityin" onclick="qualityin1080()" style="border-bottom:1px solid white;"> <img src="./svg/whitecheck.png" alt="" style="width:24px;height:24px" id='qualitychk' class="qualitychk">1080p <span style="font-size: 10px;">in progress</span></div>
               <div class="qualityin"onclick="qualityin720()"><img src="./svg/whitecheck.png" alt="" style="width:24px;height:24px" class="qualitychk">720p</div>
               <div class="qualityin"onclick="qualityin480()"><img src="./svg/whitecheck.png" alt="" style="width:24px;height:24px" class="qualitychk">480p</div>
               <div class="qualityin" onclick="qualityin240()"><img src="./svg/whitecheck.png" alt="" style="width:24px;height:24px" class="qualitychk">240p</div>
@@ -917,7 +917,16 @@
         <!-- comment here -->
         <div id="commentbody">
           <div class="videocomment">
-            video description
+             Custom Videoplayer description
+            <div style="padding-left:60px">
+              <ul>
+                <li> All functionality achieved from CSS and JS</li>
+                <li> Playing speed controlled achieved through JS</li>
+                <li>Switching of buttons, images and menu  achievd through classlist toggle</li>
+                <li>Progress and sound bar takes value of sound through JS</li>
+                <li>Subtiles and videoquality change demands for backend(working on it)</li>
+              </ul>
+            </div>
           </div>
           <div class="actualcomment">
            <div style="display:flex; gap: 30px;"><span>Comments</span> <span><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; " width="24"  height="24" ><g class="style-scope yt-icon" ><path d="M21,6H3V5h18V6z M15,11H3v1h12V11z M9,17H3v1h6V17z" class="style-scope yt-icon" ></path></g></svg> Sort by</span></div> 
