@@ -43,6 +43,15 @@ function dark() {
   let nothidden = document.getElementById("not-hidden");
   nothidden.classList.toggle("not-hiddenblack");
   nothidden.classList.toggle("not-hidden");
+
+  let sliderblack = document.getElementById("optionslider");
+  sliderblack.classList.toggle("optionsliderblack");
+  sliderblack.classList.toggle("optionslider");
+
+  let commentblack = document.getElementById("pplcomment");
+  commentblack.classList.toggle("pplcommentblack");
+  commentblack.classList.toggle("pplcomment");
+
   let anchor = document.getElementsByTagName("a");
   for (let j = 0; j < anchor.length; j++) {
     anchor[j].classList.toggle("a-black");
