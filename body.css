@@ -35,7 +35,7 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
-  min-width: 600px;
+  min-width: 400px;
 }
 .videoabout {
   height: 90px;
@@ -71,6 +71,7 @@
 }
 .videocomment {
   margin-left: 10px;
+  width: 94%;
 
   background-color: rgb(157, 159, 159);
   border-radius: 20px;
