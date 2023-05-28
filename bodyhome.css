@@ -146,7 +146,7 @@ a {
   width: 150px;
 }
 .not-hidden {
-  min-width: 1000px;
+  min-width: 1050px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -271,7 +271,7 @@ input::placeholder {
 }
 .stickysliderhome {
   height: 50px;
-  min-width: 750px;
+  min-width: 800px;
   position: sticky;
   top: 49px;
   margin-left: 240px;
