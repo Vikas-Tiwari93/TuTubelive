@@ -626,7 +626,7 @@ input::placeholder {
 }
 .stickysliderhomeblack {
   height: 50px;
-  width: 82%;
+
   min-width: 750px;
   position: sticky;
   top: 49px;
