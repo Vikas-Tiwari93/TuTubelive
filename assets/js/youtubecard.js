@@ -69,7 +69,7 @@ jsonvideopage = [
   },
   {
     name: "Drew Handerson",
-    cardsrc: "./assets/images/cardimg/eight.JPG",
+    cardsrc: "./assets/images/cardimg/eight.jpg",
     description: " Prelude, Sarabande for Lute in C minor",
     views: "7.7K views . 2 days ago",
     new: "New",
