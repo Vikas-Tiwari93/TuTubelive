@@ -2,7 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
-
+body {
+  min-width: 900px;
+}
 #leftbody {
   width: 60%;
   min-width: 550px;
