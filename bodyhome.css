@@ -81,7 +81,7 @@ a {
   margin-left: 10px;
   padding: 4px;
   border: 1px solid rgb(211, 209, 209);
-  width: 120px;
+  justify-content: center;
   align-items: center;
   background-color: red;
   color: white;
@@ -130,7 +130,9 @@ a {
   gap: 25px;
   height: 30px;
 }
-
+#YuTube {
+  margin-right: 16px;
+}
 .containers1 > a:hover {
   background-color: #b4b2b2;
   border-radius: 10px;
@@ -754,7 +756,15 @@ input::placeholder {
     display: none;
   }
   #homecard {
+    height: 350px;
     width: 97%;
     border: transparent;
+  }
+  #YuTube {
+    display: none;
+  }
+  .sliderbtnone,
+  .sliderbtntwo {
+    display: none;
   }
 }
