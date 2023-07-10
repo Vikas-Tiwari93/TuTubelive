@@ -112,3 +112,15 @@ function slideL() {
     document.getElementById("cardoptbuttonL").style.visibility = "hidden";
   }
 }
+function showmore() {
+  let videobtn = document.getElementsByClassName("videocomment")[0];
+  let comments = document.getElementById("pplcomment");
+
+  if (videobtn.style.height === "45px") {
+    videobtn.style.height = "auto";
+    comments.style.display = "block";
+  } else {
+    videobtn.style.height = "45px";
+    comments.style.display = "none";
+  }
+}

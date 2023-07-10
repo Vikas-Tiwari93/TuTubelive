@@ -135,7 +135,8 @@ jsonvideopage = [
   },
 ];
 let cardroot = document.getElementById("rightbody");
-let fragment = document.createDocumentFragment();
+let fragmentdiv = document.createElement("div");
+fragmentdiv.id = "fragmentdiv";
 for (let k = 0; k < jsonvideopage.length; k++) {
   let card = document.createElement("div");
   card.className = "card";
@@ -150,9 +151,9 @@ for (let k = 0; k < jsonvideopage.length; k++) {
      
     </div> `;
 
-  fragment.appendChild(card);
+  fragmentdiv.appendChild(card);
 }
-cardroot.appendChild(fragment);
+cardroot.appendChild(fragmentdiv);
 for (let k = 0; k < jsonvideopage.length; k++) {
   if (jsonvideopage[k].new === undefined) {
     document.getElementsByClassName("channelnew")[k].style.opacity = "0";

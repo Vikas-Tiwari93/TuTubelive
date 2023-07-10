@@ -1,6 +1,6 @@
 #videoplayersection {
   width: 97%;
-  height: 73%;
+  height: 500px;
   display: flex;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -8,7 +8,7 @@
 }
 .videomain {
   width: 100%;
-  min-width: 550px;
+
   height: 100%;
   position: relative;
 }
@@ -324,4 +324,21 @@ left:4px
   align-items: center;
   padding: 12px;
   gap: 20px;
+}
+@media screen and (max-width: 580px) {
+  #autoplay {
+    display: none;
+  }
+  #subtitle {
+    display: none;
+  }
+  #miniplayer {
+    display: none;
+  }
+  #theatre {
+    display: none;
+  }
+  #videoplayersection {
+    height: auto;
+  }
 }
