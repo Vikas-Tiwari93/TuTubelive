@@ -45,6 +45,7 @@ video {
 
 .Lcontrol,
 .Rcontrol {
+  max-width: 70%;
   height: 85%;
   gap: 6px;
   display: flex;
