@@ -33,6 +33,7 @@ video {
   transition: 3.5s ease-out;
   visibility: hidden;
   display: flex;
+  justify-content: space-between;
   height: 50px;
   width: 100%;
   position: absolute;
@@ -44,7 +45,6 @@ video {
 
 .Lcontrol,
 .Rcontrol {
-  width: 50%;
   height: 85%;
   gap: 6px;
   display: flex;
@@ -166,6 +166,7 @@ video {
   transition: 3.5s ease-out;
 }
 #mainrange {
+  width: 7px;
   accent-color: white;
   cursor: pointer;
 }
