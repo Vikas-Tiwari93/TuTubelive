@@ -66,7 +66,7 @@ setTimeout(function duration() {
     Math.floor(video.duration / 60) +
     ":" +
     Math.round((video.duration % 60) * 10);
-}, 1000);
+}, 1100);
 
 setInterval(function current() {
   let video = document.getElementById("vid");
