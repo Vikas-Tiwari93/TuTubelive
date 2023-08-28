@@ -79,7 +79,7 @@
   background-color: rgb(157, 159, 159);
   border-radius: 10px;
   height: 75%;
-  padding: 0px 17px 0px 17px;
+  padding: 5px 17px 5px 17px;
   gap: 10px;
 }
 .abouticons span:hover {
@@ -157,6 +157,7 @@
   display: flex;
   width: 95%;
   max-height: 120px;
+  gap: 10px;
 }
 .addcommentchannel {
   width: 100%;
